@@ -44,17 +44,3 @@ void array_inflate(Array* a , int more_size)
     a->size += more_size;
 }
 
-/*int main()
-{
-    Array arr1 = array_create(4);
-    int number;
-    int counter = 0;
-    while(number != -1)
-    {   
-        scanf("%d", &number);
-        if(number != -1)
-            scanf("%d", array_at(&arr1, counter++));
-    }
-    array_free(&arr1);
-}
-*/
